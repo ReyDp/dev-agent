@@ -4,7 +4,7 @@
   "description": "Agente de IA profesional desarrollado con Node.js y TypeScript.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx src/cli/index.ts"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,9 @@
     "@types/node": "^26.1.0",
     "tsx": "^4.23.0",
     "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@google/genai": "^2.10.0",
+    "dotenv": "^17.4.2"
   }
 }
